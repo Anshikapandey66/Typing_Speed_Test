@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>⌨️ Typing Speed Test</h1>
+
+        <div class="stats">
+            <div>
+                <span id="timer">60</span>
+                <small>Time</small>
+            </div>
+
+            <div>
+                <span id="wpm">0</span>
+                <small>WPM</small>
+            </div>
+
+            <div>
+                <span id="accuracy">100%</span>
+                <small>Accuracy</small>
+            </div>
+        </div>
+
+        <div id="text-display">
+            Click on the input box and start typing this sentence.
+            Practice makes perfect and speed comes with consistency.
+        </div>
+
+        <textarea
+            id="input"
+            placeholder="Start typing here..."
+            disabled
+        ></textarea>
+
+        <button id="start-btn">Start Test</button>
+        <button id="restart-btn">Restart</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
